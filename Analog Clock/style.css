@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: 95vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -14,5 +14,20 @@ body {
     font-size: 16px;
     background-color:var(--main-bg-color);
     position:relative;
+    transition: all ease 0.2s;
+}
+.clock
+{
+    min-height: 15cm;
+    min-width: 15cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    background-image: url("https://imvpn22.github.io/analog-clock/clock.png");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid #ff006e;
     transition: all ease 0.2s;
 }

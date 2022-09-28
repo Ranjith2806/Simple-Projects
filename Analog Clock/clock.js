@@ -10,4 +10,8 @@ const setClock = () => {
     let ss = day.getSeconds() * deg;
 
     hour.style.transform = 'rotateZ(${hh + mm / 12}deg)';
-}
+    hour.style.transform = 'rotateZ(${mm}deg)';
+    hour.style.transform = 'rotateZ(${ss}deg';
+};
+setClock();
+setInterval(setClock, 1000);

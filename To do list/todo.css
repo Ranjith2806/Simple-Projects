@@ -51,7 +51,7 @@ body {
 .tabs input[type="radio"]:checked+label+.tab {
     display: block;
 }
-/* 
+
 @media (max-width: 45em) {
 
     .tabs .tab,
@@ -64,4 +64,4 @@ body {
         margin-right: 0;
         margin-top: 0.2rem;
     }
-} */
+}
